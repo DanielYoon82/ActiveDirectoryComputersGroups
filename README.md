@@ -31,8 +31,8 @@ Move computer objects from the default Computers container into the appropriate 
 </p>
 <br />
 
-- <b>Group Policy Management</b> <br />
-OU's has been organized in which policies can now be deployed using Group Policy Management individually. Group Policy Objects will allow seperate baselines for devices and users. As shown, there are three existing GPO's in my VM.
+- <b>Managing Group Policy Objects (GPOs)</b> <br />
+After organizing the Active Directory environment, I reviewed existing Group Policy Objects and their scope. First, I review the Default Domain Policy.
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG2.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
