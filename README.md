@@ -17,7 +17,7 @@ This home lab demonstrates how to organize computer objects and manage Group Pol
 
 
 - <b>Organizing Computers with Organizational Units (OUs)</b> <br />
-To improve administration and policy management, company devices are organized into separate Organizational Units. First, create dedicated Workstations and Servers Organizational Units.
+To improve administration and policy management, company devices are organized into separate Organizational Units. First, I create dedicated Workstations and Servers Organizational Units.
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
