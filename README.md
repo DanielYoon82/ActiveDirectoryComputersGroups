@@ -1,7 +1,7 @@
-<h1>Home Lab - Managing Computers and Groups in Active Directory</h1>
+<h1>Home Lab – Active Directory Computer and Group Policy Management</h1>
 
 <h2>Description</h2>
-In this virtual machine I demonstrate computer and group management in Active Directory.  
+This home lab demonstrates how to organize computer objects and manage Group Policy Objects (GPOs) within an Active Directory environment. The lab simulates common Windows Server administration tasks, including organizing Organizational Units (OUs), configuring domain security policies, restricting user access, and enforcing workstation security settings. 
 <br />
 
 
@@ -16,15 +16,15 @@ In this virtual machine I demonstrate computer and group management in Active Di
 <h2>Program walk-through:</h2>
 
 
-- <b>Organizing Groups and Creating OU's for Group Policies</b> <br />
-Two OU's, Workstations and Servers, have been created to place computers and servers in. In a professional work environment, it is optimal to segregate devices to set policies.
+- <b>Organizing Computers with Organizational Units (OUs)</b> <br />
+To improve administration and policy management, company devices are organized into separate Organizational Units. First, create dedicated Workstations and Servers Organizational Units.
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
-From the computer container, I will move them to the OU's created accordingly. <br />
+Move computer objects from the default Computers container into the appropriate OUs. Organize devices to allow targeted Group Policy deployment. <br />
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG1.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
