@@ -68,21 +68,21 @@ Navigate to: Computer Configurations -> Policies -> Windows Setting -> Security 
 <br />
 
 - <b>Restricting Access to Control Panel</b> <br/>
-Here, I would like to restrict access to the Control Panel in exception to the IT Department. I created a new GPO named "Restrict Control Panel Access."  <br />
+Standard users should not have access to Control Panel settings, while IT staff retain administrative access. First, I create a new Group Policy Object named Restrict Control Panel Access.  <br />
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG7.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-User Configuration -> Administrative Templates -> Control Panel -> was then accessed in the editor to enable the feature to restrict access.  <br />
+Enabled the policy under: User Configuration -> Administrative Templates -> Control Panel ->.  <br />
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG8.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-In Group Policy Management, by dragging the GPO Restrict Control Panel Accesss to the departments other than IT, I successfully restricted access to the Control Panel.  <br />
+Linked the GPO to the appropriate Organizational Units while excluding the IT department.  <br />
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG9.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
@@ -90,21 +90,21 @@ In Group Policy Management, by dragging the GPO Restrict Control Panel Accesss t
 <br />
 
 - <b>Auto Lock Screen in GPO</b> <br />
-A new GPO was created named Auto Lock Screen. This will allow me to change policies from the root domain.
+To improve endpoint security, workstations should automatically lock after a period of inactivity. First, I create a new Group Policy Object named Auto Lock Screen.
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG10.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
-In the editor I accessed Computer Configurations -> Policies -> Windows Setting -> Security Settings -> Local Policies -> Security Options. I see that Machine Inactivity Limit is Not Defined. Edit was performed and set to inactivity limit to 5 minutes (300 seconds)  <br />
+Configure the Machine Inactivity Limit policy under: Computer Configurations -> Policies -> Windows Setting -> Security Settings -> Local Policies -> Security Options. Set the inactivity timeout to 300 seconds (5 minutes)  <br />
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG11.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-The new GPO was dragged into the root tml.local for enabling completing the task.  <br />
+Linked the policy at the domain level to enforce the setting across managed devices.  <br />
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG12.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
@@ -113,6 +113,6 @@ The new GPO was dragged into the root tml.local for enabling completing the task
 
 
 - <b>Summary</b> <br />
-Using Windows Active Directory with modeling a VM in creating OU's, creating group policies, changing password policy, managing restricted access, and configuring auto lock screen was displayed. Managing computers and group policies was broken down using a VM as a simulation.
+This lab demonstrates core Windows Server administration skills through the organization of Active Directory objects and the deployment of Group Policy Objects. Tasks included creating Organizational Units, managing computer objects, configuring domain password policies, restricting user access through Group Policy, and enforcing automatic workstation lock policies. These exercises reflect common responsibilities performed by IT Support and Systems Administrators in enterprise Windows environments.
 <br />
 <br />
