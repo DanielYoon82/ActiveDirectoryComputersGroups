@@ -85,16 +85,14 @@ The organization requires stronger password requirements to improve domain secur
 </p>
 <br />
 
-- Navigated to:
-
-Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Password Policy
+- Edit in Default Domain Policy
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG5.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-Navigate to: Computer Configurations -> Policies -> Windows Setting -> Security Settings -> Account Policies -> Password Policy and changing the required policy value to 10.    <br />
-<br />
+- Navigated to: Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Password Policy
+- Updated the Minimum Password Length policy to 10 characters
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG6.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
