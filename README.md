@@ -79,14 +79,15 @@ The organization requires stronger password requirements to improve domain secur
 </p>
 <br />
 
-- Identify policies applied to the domain
+- New policy has been set to use a minimum of 10 characters for passwords. The GPO Default Domain Policy was chosen to edit for all computers.
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG4.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-New policy has been set to use a minimum of 10 characters for passwords. The GPO Default Domain Policy was chosen to edit for all computers.   <br />
-<br />
+- Navigated to:
+
+Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Password Policy
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG5.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
