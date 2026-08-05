@@ -71,13 +71,15 @@ The organization requires stronger password requirements to improve domain secur
 </p>  
 <br />
 
-Reviewed the existing Default Domain Policy
+<h3>Actions Performed </h3>
+
+- Reviewed the existing Default Domain Policy
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG3.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-Identify policies applied to the domain
+- Identify policies applied to the domain
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG4.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
