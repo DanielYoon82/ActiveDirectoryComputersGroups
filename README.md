@@ -58,8 +58,6 @@ To improve administration and policy deployment, company workstations and server
 <br />
 
 - Moved computer objects from the default Computers container
-After organizing the Active Directory environment, I reviewed existing Group Policy Objects and their scope. First, I review the Default Domain Policy.
-<br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG2.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
