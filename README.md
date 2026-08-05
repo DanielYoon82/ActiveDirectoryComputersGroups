@@ -79,7 +79,7 @@ The organization requires stronger password requirements to improve domain secur
 </p>
 <br />
 
-- New policy has been set to use a minimum of 10 characters for passwords. The GPO Default Domain Policy was chosen to edit for all computers.
+- Examined current password and account lockout settings
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG4.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
