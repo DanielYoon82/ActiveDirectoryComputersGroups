@@ -98,45 +98,58 @@ The organization requires stronger password requirements to improve domain secur
 </p>
 <br />
 
-- <b>Restricting Access to Control Panel</b> <br/>
-Standard users should not have access to Control Panel settings, while IT staff retain administrative access. First, I create a new Group Policy Object named Restrict Control Panel Access.  <br />
+<h2>Scenario 3 – Restricting Access to Control Panel</h2>
+
+<h3>Issue </h3>
+Standard users should not be able to modify system settings through Control Panel, while IT administrators retain full access
+</p>  
 <br />
+
+<h3>Actions Performed </h3>
+
+- Created a new Group Policy Object named Restrict Control Panel Access
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG7.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-Enabled the policy under: User Configuration -> Administrative Templates -> Control Panel ->.  <br />
-<br />
+- Configured the policy under: User Configuration → Administrative Templates → Control Panel
+- Enabled the policy to prevent access to Control Panel
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG8.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-Linked the GPO to the appropriate Organizational Units while excluding the IT department.  <br />
-<br />
+- Linked the GPO to the appropriate Organizational Units
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG9.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-- <b>Auto Lock Screen in GPO</b> <br />
+<h2>Scenario 4 – Configuring Automatic Workstation Lock</h2>
 To improve endpoint security, workstations should automatically lock after a period of inactivity. First, I create a new Group Policy Object named Auto Lock Screen.
+
+<h3>Issue </h3>
+To improve endpoint security, company workstations should automatically lock after a period of inactivity.
+</p>  
 <br />
+
+<h3>Actions Performed </h3>
+
+- Created a new Group Policy Object named Auto Lock Screen
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG10.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
-Configure the Machine Inactivity Limit policy under: Computer Configurations -> Policies -> Windows Setting -> Security Settings -> Local Policies -> Security Options. Set the inactivity timeout to 300 seconds (5 minutes)  <br />
-<br />
+- Configured the Machine Inactivity Limit policy under: Computer Configuration → Policies → Windows Settings → Security Settings → Local Policies → Security Options
+- Set the inactivity timeout to 300 seconds (5 minutes)
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG11.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-Linked the policy at the domain level to enforce the setting across managed devices.  <br />
-<br />
+- Linked the policy at the domain level
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG12.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
