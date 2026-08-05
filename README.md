@@ -1,32 +1,63 @@
 <h1>Home Lab – Active Directory Computer and Group Policy Management</h1>
 
-<h2>Description</h2>
-This home lab demonstrates how to organize computer objects and manage Group Policy Objects (GPOs) within an Active Directory environment. The lab simulates common Windows Server administration tasks, including organizing Organizational Units (OUs), configuring domain security policies, restricting user access, and enforcing workstation security settings. 
+<h3>Project Overview</h3>
+This home lab demonstrates how Active Directory Organizational Units (OUs) and Group Policy Objects (GPOs) are used to organize computer objects, standardize security settings, and enforce administrative policies across a Windows domain. The lab simulates common enterprise tasks performed by IT Support and Systems Administrators to improve security, simplify management, and ensure consistent workstation configurations. 
 <br />
 
-<h2>Environments Used </h2>
+<h3>Objectives </h3>
 
-- <b>Windows 10</b>
+- Organize computer objects using Organizational Units (OUs)
+- Deploy and manage Group Policy Objects (GPOs)
+- Configure domain password policies
+- Restrict access to Windows Control Panel
+- Enforce automatic workstation locking
+- Demonstrate centralized Windows administration
 
-<h2>Program walk-through:</h2>
+<h3>Environment </h3>
 
+- Windows Server 2019
+- Active Directory Domain Services (AD DS)
+- Group Policy Management Console (GPMC)
+- Windows 10 Client
 
-- <b>Organizing Computers with Organizational Units (OUs)</b> <br />
-To improve administration and policy management, company devices are organized into separate Organizational Units. First, I create dedicated Workstations and Servers Organizational Units.
+<h3>Skills Demonstrated </h3>
+
+- Active Directory Administration
+- Organizational Unit (OU) Management
+- Group Policy Administration
+- Password Policy Configuration
+- Account Lockout Policy
+- Endpoint Security
+- Windows Security Hardening
+- Centralized Policy Management
+- Windows Server Administration
+</p>  
+<br />
+
 <br />
 <p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCGDiagram.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
-Move computer objects from the default Computers container into the appropriate OUs. Organize devices to allow targeted Group Policy deployment. <br />
+
+<h2>Scenario 1 – Organizing Computer Objects</h2>
+
+
+<h3>Issue </h3>
+To improve administration and policy deployment, company workstations and servers must be organized into separate Organizational Units.
+</p>  
 <br />
+
+<h3>Actions Performed </h3>
+
+- Created dedicated Workstations and Servers Organizational Units
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG1.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-- <b>Managing Group Policy Objects (GPOs)</b> <br />
+- Moved computer objects from the default Computers container
 After organizing the Active Directory environment, I reviewed existing Group Policy Objects and their scope. First, I review the Default Domain Policy.
 <br />
 <p align="center">
@@ -34,15 +65,21 @@ After organizing the Active Directory environment, I reviewed existing Group Pol
 </p>
 <br /> 
 
-Identify policies applied to the domain. <br />
+<h2>Scenario 2 – Reviewing and Configuring Domain Password Policies</h2>
+
+
+<h3>Issue </h3>
+The organization requires stronger password requirements to improve domain security.
+</p>  
 <br />
+
+Reviewed the existing Default Domain Policy
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG3.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-Examine password and account lockout configurations. <br />
-<br />
+Identify policies applied to the domain
 <p align="center">
 <img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG4.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
