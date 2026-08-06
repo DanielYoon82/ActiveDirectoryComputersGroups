@@ -57,9 +57,9 @@ To improve administration and policy deployment, company workstations and server
 </p>
 <br />
 
-- Moved computer objects from the default Computers container
+- Moved computer and server objects from the default Computers container
 <p align="center">
-<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG2.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/DanielYoon82/ActiveDirectoryComputersGroups/blob/main/image/ActiveDirectoryCG13.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 
