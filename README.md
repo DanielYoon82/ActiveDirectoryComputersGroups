@@ -157,17 +157,20 @@ To improve endpoint security, company workstations should automatically lock aft
 
 <h3>Administrative Tasks Demonstrated </h3>
 
-- User account creation
-- User account provisioning
-- Password administration
-- Account unlock
-- Security group management
-- Account disablement
-- Account deletion
-- User lifecycle management
+- Organizational Unit (OU) creation
+- Computer object management
+- Group Policy deployment
+- Password policy administration
+- Account lockout configuration
+- Endpoint security hardening
+- Access restriction through Group Policy
+- Automatic workstation lock configuration
+- Centralized Windows administration
 
 
 <h3>Key Takeaways </h3>
-This lab demonstrates foundational Active Directory administration skills commonly performed by Help Desk and IT Support professionals. It showcases the ability to provision new user accounts, manage access through security groups, perform password resets, unlock user accounts, and administer the full user account lifecycle using Active Directory Users and Computers.
+This lab demonstrates how Active Directory and Group Policy work together to simplify enterprise administration and improve security. By organizing computer objects into Organizational Units and deploying centralized policies, administrators can efficiently manage Windows environments, strengthen security, and maintain consistent configurations across multiple devices. These tasks closely reflect the day-to-day responsibilities of IT Support Specialists, Desktop Support Technicians, and Junior Systems Administrators.
+<br />
+<br />
 <br />
 <br />
