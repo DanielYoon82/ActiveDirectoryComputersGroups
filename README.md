@@ -155,8 +155,19 @@ To improve endpoint security, company workstations should automatically lock aft
 </p>
 <br />
 
+<h3>Administrative Tasks Demonstrated </h3>
 
-- <b>Summary</b> <br />
-This lab demonstrates core Windows Server administration skills through the organization of Active Directory objects and the deployment of Group Policy Objects. Tasks included creating Organizational Units, managing computer objects, configuring domain password policies, restricting user access through Group Policy, and enforcing automatic workstation lock policies. These exercises reflect common responsibilities performed by IT Support and Systems Administrators in enterprise Windows environments.
+- User account creation
+- User account provisioning
+- Password administration
+- Account unlock
+- Security group management
+- Account disablement
+- Account deletion
+- User lifecycle management
+
+
+<h3>Key Takeaways </h3>
+This lab demonstrates foundational Active Directory administration skills commonly performed by Help Desk and IT Support professionals. It showcases the ability to provision new user accounts, manage access through security groups, perform password resets, unlock user accounts, and administer the full user account lifecycle using Active Directory Users and Computers.
 <br />
 <br />
